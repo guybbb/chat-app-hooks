@@ -1,0 +1,25 @@
+.chat {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px var(--blue1-color);
+    background: linear-gradient(var(--blue1-color), var(--blue2-color));
+
+}
+
+.chat__feed {
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+}
+
+.chat__actions {
+    display: flex;
+    justify-content: center;
+}
+
+.chat__actions--input {
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 1em;
+}

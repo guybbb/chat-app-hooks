@@ -1,0 +1,10 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-windows {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
